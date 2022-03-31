@@ -79,8 +79,8 @@
                                 <rect key="frame" x="296" y="442" width="66" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SET SONUCU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjO-ZX-hk1">
-                                <rect key="frame" x="112" y="685" width="191" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SET SONUCU" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjO-ZX-hk1">
+                                <rect key="frame" x="55" y="685" width="307" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
@@ -99,9 +99,8 @@
                         <outlet property="imgOyuncu2Durum" destination="OUI-NK-REu" id="86T-WM-Bho"/>
                         <outlet property="imgZar1" destination="rV7-oc-npl" id="cPh-RX-b6t"/>
                         <outlet property="imgZar2" destination="vbL-8T-qDn" id="l8S-ne-IYq"/>
-                        <outlet property="lblOyuncu1" destination="qpq-eZ-38D" id="h7a-42-kd9"/>
                         <outlet property="lblOyuncu1Puan" destination="HeT-i0-RvK" id="gnk-Ce-hk9"/>
-                        <outlet property="lblOyuncu1Skor" destination="qpq-eZ-38D" id="VLx-Fh-xo5"/>
+                        <outlet property="lblOyuncu1Skor" destination="qpq-eZ-38D" id="GT2-BA-KoG"/>
                         <outlet property="lblOyuncu2Puan" destination="J9a-mi-igD" id="qUk-Jf-5gP"/>
                         <outlet property="lblOyuncu2Skor" destination="wFy-jr-dmd" id="ECD-Jd-rz4"/>
                         <outlet property="lblSetSonucu" destination="WjO-ZX-hk1" id="da6-wE-lhv"/>
