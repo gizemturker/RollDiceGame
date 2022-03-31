@@ -43,6 +43,10 @@ class ViewController: UIViewController {
     
     override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         
+        if suankiSet > maxSetSayisi {
+            return
+        }
+        
         zarDegerleriniUret()
     }
     func setSonucu(zar1 : Int , zar2 : Int) {
@@ -95,6 +99,19 @@ class ViewController: UIViewController {
         imgZar2.image = UIImage(named: String(zar2))
         
         setSonucu(zar1: Int(zar1) , zar2: Int(zar2))
+        
+        
+        if suankiSet > maxSetSayisi {
+            
+            if oyuncuSkorlari.birinciOyuncuSkoru > oyuncuSkorlari.ikinciOyuncuSkoru {
+                
+                lblSetSonucu.text = "Oyunun galibi 1. oyuncu!"
+            } else {
+                lblSetSonucu.text = "Oyunun galibi 2. oyuncu!"
+            }
+                
+                
+        }
         
     }
     
