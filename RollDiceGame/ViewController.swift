@@ -34,11 +34,16 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let apperance = UINavigationBarAppearance()
+        apperance.backgroundColor = UIColor(named: "anaRenk")
         
+        //Başlık
+        apperance.titleTextAttributes = [.foregroundColor: UIColor(named: "textColor1")!]
         
         if let arkaPlan = UIImage(named: "arkaPlan") {
             self.view.backgroundColor = UIColor(patternImage: arkaPlan)
         }
+        
         
         
     }

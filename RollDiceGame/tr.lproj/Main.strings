@@ -6,10 +6,10 @@
 "J9a-mi-igD.text" = "0";
 
 /* Class = "UILabel"; text = "SET SCORE"; ObjectID = "WjO-ZX-hk1"; */
-"WjO-ZX-hk1.text" = "SET SCORE";
+"WjO-ZX-hk1.text" = "TUR SONUCU";
 
 /* Class = "UILabel"; text = "SCORE"; ObjectID = "fqJ-kT-Uog"; */
-"fqJ-kT-Uog.text" = "SCORE";
+"fqJ-kT-Uog.text" = "SONUÇ";
 
 /* Class = "UILabel"; text = "0"; ObjectID = "qpq-eZ-38D"; */
 "qpq-eZ-38D.text" = "0";

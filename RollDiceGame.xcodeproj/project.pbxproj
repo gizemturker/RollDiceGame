@@ -16,6 +16,7 @@
 		C4A8E35027DE141D0032FCAC /* RollDiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8E34F27DE141D0032FCAC /* RollDiceGameTests.swift */; };
 		C4A8E35A27DE141D0032FCAC /* RollDiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8E35927DE141D0032FCAC /* RollDiceGameUITests.swift */; };
 		C4A8E35C27DE141D0032FCAC /* RollDiceGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8E35B27DE141D0032FCAC /* RollDiceGameUITestsLaunchTests.swift */; };
+		C4E1349B28049BE400B997B7 /* Bangers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4E1349A28049BE400B997B7 /* Bangers-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		C4A8E35527DE141D0032FCAC /* RollDiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RollDiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A8E35927DE141D0032FCAC /* RollDiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceGameUITests.swift; sourceTree = "<group>"; };
 		C4A8E35B27DE141D0032FCAC /* RollDiceGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4E1349A28049BE400B997B7 /* Bangers-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bangers-Regular.ttf"; sourceTree = "<group>"; };
+		C4F52909280A951200FAA410 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		C4F5290A280A951200FAA410 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		C4A8E32C27DE141D0032FCAC = {
 			isa = PBXGroup;
 			children = (
+				C4E1349928049B8700B997B7 /* Fonts */,
 				C4A8E33727DE141D0032FCAC /* RollDiceGame */,
 				C4A8E34E27DE141D0032FCAC /* RollDiceGameTests */,
 				C4A8E35827DE141D0032FCAC /* RollDiceGameUITests */,
@@ -125,6 +130,14 @@
 				C4A8E35B27DE141D0032FCAC /* RollDiceGameUITestsLaunchTests.swift */,
 			);
 			path = RollDiceGameUITests;
+			sourceTree = "<group>";
+		};
+		C4E1349928049B8700B997B7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4E1349A28049BE400B997B7 /* Bangers-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +226,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = C4A8E32C27DE141D0032FCAC;
 			productRefGroup = C4A8E33627DE141D0032FCAC /* Products */;
@@ -231,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E1349B28049BE400B997B7 /* Bangers-Regular.ttf in Resources */,
 				C4A8E34527DE141D0032FCAC /* LaunchScreen.storyboard in Resources */,
 				C4A8E34227DE141D0032FCAC /* Assets.xcassets in Resources */,
 				C4A8E34027DE141D0032FCAC /* Main.storyboard in Resources */,
@@ -301,6 +316,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C4A8E33F27DE141D0032FCAC /* Base */,
+				C4F52909280A951200FAA410 /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -309,6 +325,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C4A8E34427DE141D0032FCAC /* Base */,
+				C4F5290A280A951200FAA410 /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,6 +337,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -381,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
